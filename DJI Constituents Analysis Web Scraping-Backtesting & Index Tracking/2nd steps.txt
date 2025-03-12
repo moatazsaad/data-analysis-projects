@@ -1,0 +1,25 @@
+1- start with const prices with date index & dji table
+2- got the close column from dji and concat to const creating df
+3- now got df with ticker prices and DJI value
+4- create more_info from const 
+5- create normalized df as every stock start from different price
+6- create ret dataframe of df.pct_change()
+7- create summary:the return and risk for the ret dataframe
+8- merge summary with more info(ticker,company) & set index company 
+9- create summary 2 with dropping dow because nan
+10- plot to see higher return and highest risk companies
+11- plotting scatter plot after set ticker the index and check corr.
+12- we will train and fit on 2017,2018 and forward test on 2019
+13- will return to df in point 4 and select 2017:2018 dates as df2
+14- norm2= normalize df2
+15- create ret2 from ret.loc["2017:2018]
+16-create daily ret diff between each stock and dji
+17- calculate tracking_ann for ret_diff(premium and TE)
+18- create tracking from tracking_ann(ret_diff)
+19- track portfolio using 10 lowest tracking error stocks
+20- index tracking:simple tracking portfolio using 10 stocks
+21- create noa+1 "tracking stocks" of lowest te 
+22- creat norm_track from norm2.loc[:,tracking_stocks]
+23- we will drop dji from tracking_Stocks
+24-create weights for each stock and calculate ret of those stocks * by their weight
+25-create functions port_ret and tracking error

@@ -1,0 +1,29 @@
+Suitable referees are your undergraduate tutor, director of studies or course organiser or for some professional programmes a line manager.
+ 
+1-webscraped from wikipedia the dow jones const table contain:
+30 company :company,ticker,date added ......
+-saved as const.csv,index = false
+
+2-downloaded dji: dow jones index(start date 2007,end date 2020) contain table of open,close...
+-saved dji.csv directly
+
+3-downloaded const prices using yf(start date 2007,end date 2020),thats a table of tickers and there values everyday,contains 180 ticker
+-saved prices as const_prices.csv
+
+4-created data from dji consisting of dates as index,close
+-created df from data of 2010-2020 dates and dji_close
+
+-added dji_return column
+-added position column
+-added strategy return
+-calculate strategy
+-plot dji close vs simple momentum strategy
+-create return and risk of each of them
+-plot dji close vs simple contrarian strategy
+-plot dji close vs modified profitable strategy to sell if the profit is higher than 0.01
+-plot dji close vs simple moving average of 50 days strategy
+-plot the sma50 and sma 200 and work on the crossovaers between them
+-we will +1 if sma50>sma200,_1 if sma50<sma200
+-plot this new strategy
+-plot the contrarian of this strategy
+-plot perfect strategy where we predict the return in the morning so we can define the position and take it in the morning
