@@ -1,29 +1,41 @@
-Suitable referees are your undergraduate tutor, director of studies or course organiser or for some professional programmes a line manager.
- 
-1-webscraped from wikipedia the dow jones const table contain:
-30 company :company,ticker,date added ......
--saved as const.csv,index = false
+### **Project Workflow: Data Collection and Strategy Backtesting**  
 
-2-downloaded dji: dow jones index(start date 2007,end date 2020) contain table of open,close...
--saved dji.csv directly
+1. **Scraping Dow Jones Constituents**  
+   - Extracted the Dow Jones Industrial Average (DJI) constituents table from Wikipedia.  
+   - The table includes **30 companies** with details such as **company name, ticker, and date added**.  
+   - Saved the data as **const.csv** (without index).  
 
-3-downloaded const prices using yf(start date 2007,end date 2020),thats a table of tickers and there values everyday,contains 180 ticker
--saved prices as const_prices.csv
+2. **Downloading Historical Data**  
+   - **DJI Index Data (2007–2020):** Retrieved historical DJI index data, including open and close prices.  
+   - Saved as **dji.csv**.  
+   - **Constituent Stock Prices (2007–2020):** Downloaded daily price data for **180 tickers** using Yahoo Finance (yfinance).  
+   - Saved as **const_prices.csv**.  
 
-4-created data from dji consisting of dates as index,close
--created df from data of 2010-2020 dates and dji_close
+3. **Data Preparation**  
+   - Created a DataFrame with **dates as index** and DJI **closing prices**.  
+   - Filtered data for **2010–2020** to focus on relevant trends.  
 
--added dji_return column
--added position column
--added strategy return
--calculate strategy
--plot dji close vs simple momentum strategy
--create return and risk of each of them
--plot dji close vs simple contrarian strategy
--plot dji close vs modified profitable strategy to sell if the profit is higher than 0.01
--plot dji close vs simple moving average of 50 days strategy
--plot the sma50 and sma 200 and work on the crossovaers between them
--we will +1 if sma50>sma200,_1 if sma50<sma200
--plot this new strategy
--plot the contrarian of this strategy
--plot perfect strategy where we predict the return in the morning so we can define the position and take it in the morning
+4. **Strategy Development & Backtesting**  
+   - **Simple Momentum Strategy:**  
+     - Added **DJI return** and **position** columns.  
+     - Calculated **strategy returns** and plotted DJI close vs. momentum strategy.  
+     - Analyzed return and risk.  
+
+   - **Simple Contrarian Strategy:**  
+     - Plotted DJI close vs. contrarian strategy.  
+
+   - **Modified Profitable Strategy:**  
+     - Implemented a strategy that sells if profit exceeds **0.01**.  
+     - Visualized performance against DJI close.  
+
+   - **Moving Average Strategy:**  
+     - Plotted **50-day SMA** vs. **DJI close**.  
+     - Added **200-day SMA** and analyzed **crossovers**:  
+       - **+1** when **SMA50 > SMA200**  
+       - **-1** when **SMA50 < SMA200**  
+     - Plotted strategy performance.  
+     - Evaluated its contrarian version.  
+
+   - **Perfect Prediction Strategy:**  
+     - Simulated an ideal scenario where returns are predicted in the morning to define positions accordingly.  
+     - Plotted results to compare against real-world strategies.  
