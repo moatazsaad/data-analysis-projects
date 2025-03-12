@@ -1,0 +1,5 @@
+-create a parameter for top 10 car and then add it to filter to show only top 10.
+-create a parameter "Car Make" with type string and add allowable values of car make column,then create a caluculated field named parameter filter and write make = carmake,then set this filter to true and then add it to colors to show only the selected car in a certain color
+-for dash board ad a blank then add horizontal container for example.
+
+- the rule is:create parameter then create calculated field where a certain field must be equal the parameter you created.
