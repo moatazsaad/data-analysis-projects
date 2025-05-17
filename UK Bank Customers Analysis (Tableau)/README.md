@@ -12,5 +12,5 @@ The goal of this analysis is to understand how different **regions** are represe
 - Created a **Tableau dashboard** with a **storyline** to visualize key insights.  
 
 ## **Tableau Dashboard**  
-Link: *[Insert Tableau Dashboard Link]*  
+Link: *[[Insert Tableau Dashboard Link](https://public.tableau.com/app/profile/moataz.osama/viz/UKBankCustomersAnalysis_17112564791970/Story)]*  
 
