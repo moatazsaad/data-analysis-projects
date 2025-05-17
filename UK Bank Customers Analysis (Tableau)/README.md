@@ -1,4 +1,5 @@
 # **Bank Customer Analysis**  
+[View Dashboard](https://public.tableau.com/app/profile/moataz.osama/viz/UKBankCustomersAnalysis_17112564791970/Story)
 
 ## **Objective**  
 The goal of this analysis is to understand how different **regions** are represented in the bank. Specifically, we aim to:  
@@ -11,6 +12,4 @@ The goal of this analysis is to understand how different **regions** are represe
 - Conducted **regional customer segmentation** to examine differences in demographics and banking behavior.  
 - Created a **Tableau dashboard** with a **storyline** to visualize key insights.  
 
-## **Tableau Dashboard**  
-Link: *[[Insert Tableau Dashboard Link](https://public.tableau.com/app/profile/moataz.osama/viz/UKBankCustomersAnalysis_17112564791970/Story)]*  
 
