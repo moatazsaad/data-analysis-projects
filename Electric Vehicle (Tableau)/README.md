@@ -22,7 +22,6 @@ This project uses data sourced from [Data.gov](https://catalog.data.gov/dataset/
 
 An interactive Tableau dashboard was developed to provide insights into electric vehicle ownership patterns. Key features include:
 
-- Dynamic filtering by vehicle type, make, model year, and location for granular analysis  
-- Visualizations including pie charts, bar charts, stacked histograms, and maps to represent vehicle distribution and trends  
-- Analysis of regional EV adoption, top manufacturers, and vehicle age demographics  
-- Actionable insights for stakeholders and strategic planning based on market trends  
+- Built interactive Tableau dashboards visualizing trends in vehicle model years, geographic distribution by postal code, and top counties by vehicle ownership.
+- Created calculated fields, applied filters (e.g., Washington-only data), and used hierarchies for drill-down analysis (Make → Model).
+- Used bar charts, stacked bar charts, and geographic maps with custom formatting and user-driven filters.
