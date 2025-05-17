@@ -1,5 +1,5 @@
 # Electric Vehicle Analysis Dashboard
-
+[View Dashboard](https://public.tableau.com/app/profile/moataz.osama/viz/WashingtonElectricVehiclesDashboard_17112807153240/Dashboard1)
 ## Dataset Overview
 
 This project uses data sourced from [Data.gov](https://catalog.data.gov/dataset/), containing detailed electric vehicle registration information. Key dataset columns include:
