@@ -1,4 +1,4 @@
-## Tableau Dashboard Project – European Bike Sales (Kaggle Dataset)
+## Tableau Dashboard Project – European Bike Sales
 
 [View Dashboard](https://public.tableau.com/app/profile/moataz.osama/viz/BikeSalesAnalysis_17098231966970/SalesDashboard)
 
