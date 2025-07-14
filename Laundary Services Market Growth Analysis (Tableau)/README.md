@@ -35,4 +35,4 @@ WeWashYouSleep is a small laundry pick-up service startup facing strong competit
 - **Cluster 3:** **Highest ROI**, ideal for further marketing investment.  
 
 ### **Conclusion**  
-Prioritizing marketing funds in **Cluster 3** locations ensures the **best return on investment**, making it the most effective strategy. 🚀  
+Prioritizing marketing funds in **Cluster 3** locations ensures the **best return on investment**, making it the most effective strategy.  
