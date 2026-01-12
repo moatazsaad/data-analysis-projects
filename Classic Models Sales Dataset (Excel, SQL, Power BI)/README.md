@@ -1,7 +1,7 @@
 # Sales Analysis & Dashboard Project 
 
 ## Project Overview
-This project analyzes 2004 sales data to answer stakeholder questions about product performance, customer behavior, profitability, and credit limits. Insights are presented through an interactive Power BI dashboard.
+This project analyzes sales data to answer stakeholder questions about product performance, customer behavior, profitability, and credit limits. Insights are presented through an interactive Power BI dashboard.
 
 ## Objective
 - Analyze sales breakdowns by product and country.
