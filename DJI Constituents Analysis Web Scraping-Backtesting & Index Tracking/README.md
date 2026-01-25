@@ -1,4 +1,4 @@
-# Investment Strategy Backtesting
+# Equity Analysis & Index Tracking Strategies 
 
 This project involves several key steps in data analysis and backtesting investment strategies using US stocks:
 
