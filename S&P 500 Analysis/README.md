@@ -1,7 +1,7 @@
 # 📈 Equity Time-Series Analysis of Selected S&P 500 Stocks 
 
 ## Overview
-This project analyzes historical stock data for major tech companies—**Apple (AAPL), Amazon (AMZN), Google (GOOG), and Microsoft (MSFT)**—using Python. The focus is on price trends, moving averages, returns, resampling, and correlation analysis.
+This project analyzes historical stock data for major tech companies**Apple (AAPL), Amazon (AMZN), Google (GOOG), and Microsoft (MSFT)** using Python. The focus is on price trends, moving averages, returns, resampling, and correlation analysis.
 
 ## Dataset
 - Source: `individual_stocks_5yr/`
