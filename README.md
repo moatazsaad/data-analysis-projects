@@ -3,10 +3,10 @@
 ## Overview
 This repository contains a collection of data analysis projects focused on extracting insights from real-world datasets using tools such as Excel, SQL, Tableau, Power BI, and Python. These projects emphasize data cleaning, exploration, visualization, and business-driven analysis.
 
-## 📌 Purpose
+## Purpose
 The goal of this repository is to demonstrate strong analytical thinking, data manipulation skills, and the ability to communicate insights through visualizations and dashboards.
 
-## 📂 Projects Included
+## Projects Included
 - Baby Names Analysis  
 - Bike Sales Analysis (Tableau)  
 - Classic Models Sales (Excel, SQL, Power BI)  
@@ -21,7 +21,7 @@ The goal of this repository is to demonstrate strong analytical thinking, data m
 - UK Bank Customers Analysis (Tableau)  
 - YouTube Sentiment Analysis  
 
-## 🧱 Tools & Technologies
+## Tools & Technologies
 - Python (Pandas, NumPy)  
 - SQL  
 - Excel  
@@ -29,7 +29,7 @@ The goal of this repository is to demonstrate strong analytical thinking, data m
 - Power BI  
 - Data Visualization  
 
-## 📊 What These Projects Demonstrate
+## What These Projects Demonstrate
 - Data cleaning and preprocessing  
 - Exploratory data analysis (EDA)  
 - Dashboard creation and visualization  
@@ -38,5 +38,5 @@ The goal of this repository is to demonstrate strong analytical thinking, data m
 
 
 
-## ✅ Summary
+## Summary
 This repository showcases foundational data analysis skills and complements more advanced machine learning and AI projects in my portfolio.
